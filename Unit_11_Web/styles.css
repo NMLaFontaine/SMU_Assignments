@@ -1,0 +1,193 @@
+(max-width: 800px) {
+
+  .description-content {
+ 
+    padding: 0;
+    margin-top: 0;
+  }
+}
+
+.navbar-custom {
+  background-color: rgb(255, 255, 255);
+}
+
+ {
+  height: 70px;
+  padding-top: 30px;
+  padding-bottom: 8px;
+
+  margin-left: 70px;
+  font-family: "Times New Roman";
+
+ 
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+
+  background: #0b0c0c;
+}
+
+#logo:hover {
+  
+  opacity: 0.9;
+}
+
+.navbar-right-custom {
+  padding-top: 6px;
+  padding-right: 20px;
+
+  font-family: "Times New Roman";
+  font-weight: lighter;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #cfdbdb;
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar-header {
+    background-color: #e2eeed;
+  }
+
+ {
+    width: 100%;
+
+    height: 80px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+    margin-left: 0;
+    font-family: "Times New Roman";
+
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(12, 10, 10);
+
+    background: #09021d;
+  }
+}
+
+html {
+  position: relative;
+
+  min-height: 100%;
+}
+
+body {
+  
+  margin-bottom: 150px;
+
+  font-family: Arial;
+
+  background-color: #f3ebeb;
+}
+
+@media only screen and (max-width: 767px) {
+  
+  body {
+    
+    background-color: rgba(99, 18, 18, 0.027);
+  }
+}
+
+
+.description-header {
+  margin-bottom: 33px;
+  font-family:"Times New Roman";
+
+  font-size: 34px;
+  font-weight: bold;
+  color: #09130c;
+}
+
+.description-content {
+  padding: 30px;
+
+  
+  margin-top: 32px;
+
+  background-color: rgb(160, 152, 155);
+}
+
+.description-content > p {
+
+  padding-top: 20px;
+
+  
+  font-size: 16px;
+  line-height: 30px;
+  color: rgb(239, 242, 245);
+}
+
+.description-text {
+  padding-bottom: 20px;
+}
+
+#description-image {
+  
+  float: left;
+
+  
+  width: 250px;
+  height: 250px;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+#imageNav-area {
+  width: 100%;
+
+  
+  padding: 30px 30px 43px;
+
+  margin-top: 32px;
+
+  background-color: rgb(18, 169, 180);
+}
+
+.imageNav-header {
+  margin-bottom: 15px;
+  font-family: "Times New Roman";
+
+  font-size: 25px;
+  font-weight: bold;
+  color: #1b1a1b;
+}
+
+.imageNav-photo {
+  width: 140px;
+
+  height: 140px;
+}
+
+.imageNav-photo:hover {
+  opacity: 0.6;
+}
+
+.imageNav-photo.active {
+  border: 2px solid #0d0e0d;
+}
+
+#images {
+  
+  padding-top: 15px;
+
+  text-align: center;
+}
+
+.comparison-image:hover {
+  opacity: 0.6;
+}
+
+.comparison-header {
+  margin-bottom: 10px;
+  font-family: "Times New Roman";
+
+  font-size: 40px;
+  font-weight: bold;
+  color: #111010e0;
+  text-align: center;
+}
+
+
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <title>TEST TITLE</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="row">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="col-xs-9">
+            <a class="navbar-brand" href="index.html" id="logo">HOME</a>
+          </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right navbar-right-custom">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Plots</a>
+              <ul class="dropdown-menu">
+                <li><a href="subpages/temp.html">Max Temperature</a></li>
+                <li><a href="subpages/humidity.html">Humidity</a></li>
+                <li><a href="subpages/cloudiness.html">Cloudiness</a></li>
+                <li><a href="subpages/wind.html">Wind Speed</a></li>
+              </ul>
+            </li>
+            <li><a href="comparison.html">Comparison</a></li>
+            <li><a href="data.html">Data</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <article class="description-content row">
+        <div class="col-xs-12">
+          <h1 class="description-header">Comparison of Data</h1>
+          <hr class="description-hr"/>
+          <p class="description-text">1.	City Latitude vs Max Temperature- For this specific graph the data shows that based on how far you are away from the equator the lower the temperature is. One would assume that the highest temperature is the city closest to the equator but it is not (shown at 30 latitude). 
+            2.	Latitude vs Humidity- The humidity compared to the latitude is all around the same percentage of range. The scatter plot showed an outlier at around a latitude of 15 with a percentage of almost 300 humidity. 
+            3.	City Latitude vs Wind Speed- The scatter plot for this data shows no observable trends or correlation between city Latitude and wind speed. 
+            </p>
+        </div>
+        <div class="col-md-6">
+          <h2 class="comparison-header">Lattitude vs. Max Temperature</h2>
+          <a href="subpages/temp.html"><img src="C:\Users\nahie\Desktop\SMU Gitlab\Starter\assets\images\Lat_vs_Temp_plot.png" alt="Latitude vs. Max Temperature" class="comparison-image img-responsive"></a>
+          <hr class="visible-xs visible-sm">
+        </div>
+        <div class="col-md-6">
+          <h2 class="comparison-header">Lattitude vs. Humidity</h2>
+          <a href="subpages/humidity.html"><img src="C:\Users\nahie\Desktop\SMU Gitlab\Starter\assets\images\Lat_vs_Humid_plot.png" alt="Latitude vs. Humidity" class="comparison-image img-responsive"></a>
+          <hr class="visible-xs visible-sm">
+        </div>
+        <div class="col-md-6">
+          <h2 class="comparison-header">Lattitude vs. Cloudiness</h2>
+          <a href="subpages/cloudiness.html"><img src="C:\Users\nahie\Desktop\SMU Gitlab\Starter\assets\images\Lat_vs_Cloud_plot.png" alt="Latitude vs. Cloudiness" class="comparison-image img-responsive"></a>
+          <hr class="visible-xs visible-sm">
+        </div>
+        <div class="col-md-6">
+          <h2 class="comparison-header">Lattitude vs. Wind Speed</h2>
+          <a href="subpages/wind.html"><img src="C:\Users\nahie\Desktop\SMU Gitlab\Starter\assets\images\Lat_vs_Wind_Plot.png" alt="Latitude vs. Wind Speed" class="comparison-image img-responsive"></a>
+        </div>
+      </article>
+    </div>
+  </body>
+
+</html>
